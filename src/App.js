@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Tasks from "./components/Tasks";
 import AddTask from "./components/AddTask";
 
@@ -103,9 +104,7 @@ function App() {
                         "No tasks to show"
                   )}
 
-                  {/* 
-      <h2>Hello {name}</h2>
-      <h3>Hello {x ? "Y" : "N"}</h3> */}
+                  <Footer />
             </div>
       );
 }
