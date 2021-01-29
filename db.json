@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Doc",
+      "day": "15th Feb at 2:30pm",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Meeting",
+      "day": "4th Feb at 6:40pm",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Shopping",
+      "day": "9th Feb at 11:00am",
+      "reminder": false
+    },
+    {
+      "text": "Ver curso de JSON Udemy",
+      "day": "Qlqr hora",
+      "reminder": true,
+      "id": 4
+    },
+    {
+      "text": "Ver curso JS Trasversy",
+      "day": "idk",
+      "reminder": false,
+      "id": 5
+    }
+  ]
+}

@@ -4,9 +4,9 @@ const Tasks = ({ tasks, onDelete, onToggle }) => {
       //https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map
       return (
             <>
-                  {tasks.map((task) => (
+                  {tasks.map((task, index) => (
                         <Task
-                              key={task.id}
+                              key={index}
                               task={task}
                               onDelete={onDelete}
                               onToggle={onToggle}

@@ -1,10 +1,9 @@
 import { FaTimes } from "react-icons/fa";
 const Task = ({ task, onDelete, onToggle }) => {
+      //task should have conditional for task reminder but it's not working yet
+      /* className={`task ${task.reminder ? "reminder" : ""}`} */
       return (
-            <div
-                  className={`task ${task.reminder ? "reminder" : ""}`}
-                  onDoubleClick={() => onToggle(task.id)}
-            >
+            <div className="task" onDoubleClick={() => onToggle(task.id)}>
                   <h3>
                         {task.text}{" "}
                         <FaTimes

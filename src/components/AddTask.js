@@ -45,6 +45,7 @@ const AddTask = ({ onAdd }) => {
                         <label>Reminder</label>
                         <input
                               type="checkbox"
+                              checked={reminder}
                               value={reminder}
                               onChange={(e) =>
                                     setReminder(e.currentTarget.checked)
