@@ -1,3 +1,21 @@
+# Task Tracker React project
+### Final result of my version of [Brad Traversy's React JS Crash Course](https://www.youtube.com/watch?v=w7ejDZ8SWv8).
+
+Install [Node.js](https://nodejs.org/en/download/). 
+
+Install [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) if you want to explore the application's components.
+
+Run `npm start` on your terminal. 
+
+The application's available on `http://localhost:3000`.
+
+
+
+
+
+
+_________________________________________________________________
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
